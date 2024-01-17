@@ -31,7 +31,7 @@ def find_large_files(directory, min_size_mb):
     return sorted(large_files, key=lambda x: x['size'], reverse=True)
 
 
-def shred_file(file_path, chunk_size=1024 * 1024):  # Default chunk size is 1 MB
+def shred_file(file_path, chunk_size=1024*1024):  # Default chunk size is 1 MB
     if os.path.exists(file_path):
         file_size = os.path.getsize(file_path)
 

@@ -1,9 +1,5 @@
 # OSX Big File Cleanup
 
-
-
-## Description
-
 This Python script is designed to search for files larger than a specified size within a given directory and then offers the user the option to safely delete or permanently shred these files.
 
 
